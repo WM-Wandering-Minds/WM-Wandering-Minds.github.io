@@ -16,12 +16,16 @@
 title: Wandering Minds
 email: contact@wandering-minds.eu
 description: >- # this means to ignore newlines until "baseurl:"
-  Wandering Minds is a IT-Consulting company based in Berlin, Germany. We are specialized in Software Engineering Leadership, as well as the development of web and mobile applications.
+  Wandering Minds is a software company based in Berlin, Germany. We offer consulting services around software engineering leadership and development of web and mobile application.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wandering-minds.eu" # the base hostname & protocol for your site, e.g. http://example.com
 
+company_name: WM Wandering Minds GmbH
+
 github_username:  WM-Wandering-Minds
-linkedin_companyname: wm-wandering-minds
+linkedin_companyname: WM-Wandering-Minds
+
+google_analytics: G-R3432B747P
 
 # Build settings
 markdown: kramdown

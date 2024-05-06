@@ -1,18 +1,20 @@
 ---
 layout: page
-title: About
+title: Impressum
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<h2>WM Wandering Minds GmbH</h2>
+Paul-Lincke-Ufer 25
+10999 Berlin, DE
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<b>Geschäftsführung:</b> Monika Wiest
 
+<b>Amtsgericht:</b> Berlin (Charlottenburg)
 
-[jekyll-organization]: https://github.com/jekyll
+<b>Handelsregister:</b> HRB 262373B
+
+<b>USt.-IdNr.:</b> (beantragt, folgt sobald vorhanden)
+
+<b>Kontakt:</b> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
