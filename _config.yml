@@ -34,6 +34,7 @@ plugins:
   - jekyll-feed
 
 header_pages: # These are displayed in the header navigation
+  - pages/about.md
   # - pages/consulting.md
   # - pages/projects.md
   # - pages/news.md
