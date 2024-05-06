@@ -20,17 +20,23 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wandering-minds.eu" # the base hostname & protocol for your site, e.g. http://example.com
 
-company_name: WM Wandering Minds GmbH
-
+company_name: WM Wandering Minds GmbH 
 github_username:  WM-Wandering-Minds
 linkedin_companyname: WM-Wandering-Minds
 
 google_analytics: G-R3432B747P
 
+show_excerpts: true
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+header_pages: # These are displayed in the header navigation
+  # - pages/consulting.md
+  # - pages/projects.md
+  # - pages/news.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
