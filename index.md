@@ -5,4 +5,4 @@
 layout: home
 ---
 
-<h2>More information coming soon...<h2>
+<h2>More info coming soon...<h2>

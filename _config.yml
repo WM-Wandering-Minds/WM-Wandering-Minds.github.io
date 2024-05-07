@@ -32,6 +32,8 @@ show_excerpts: true
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 header_pages: # These are displayed in the header navigation
   - pages/about.md
