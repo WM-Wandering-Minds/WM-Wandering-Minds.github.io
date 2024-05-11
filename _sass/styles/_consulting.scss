@@ -1,0 +1,82 @@
+// Gallery
+
+.consulting-page-wrapper {
+
+    .consulting-offers-title-row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-gap: 1rem;
+        margin-bottom: 1rem;
+
+        @include media-query($on-palm) {
+            grid-template-columns: 1fr;
+        }
+
+        .consulting-contact-methods {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            margin-bottom: 1rem;
+
+            .button {
+                align-self: end;
+
+                @include media-query($on-palm) {
+                    align-self: center
+                }
+            }
+        }
+    }
+
+    .consulting-offers-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        grid-gap: 1rem;
+
+        .consulting-offer-item {
+            background-color: $background-color-secondary;
+            border-radius: 1rem;
+            border-width: 2px;
+            border-color: $grey-color;
+            box-shadow: $grey-color 0px 0px 1px 1px;
+            transition: box-shadow 0.3s;
+            background-color: $background-color-secondary;
+
+            img {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+            }
+
+            .consulting-offer-description {
+                padding: 1rem;
+                text-align: center;
+
+                h2 {
+                    color: $text-color;
+                    font-size: 1.5rem;
+                    margin-bottom: 0.5rem;
+                }
+
+                .consulting-offer-subtitle {
+                    color: $grey-color;
+                    font-size: 1rem;
+                    top: 0;
+                }
+            }
+        }
+    }
+
+    .consulting-footer {
+        flex-direction: row;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+
+        h3,
+        a {
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+    }
+}

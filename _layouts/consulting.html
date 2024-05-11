@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="consulting-page-wrapper">
+
+  <!-- <h1>{{ page.title | escape }}</h1>
+  {{ content }} -->
+  <div class="consulting-offers-title-row">
+    <div>
+      <h1>Consulting Skills & Offering</h1>
+      <p>Our consulting services are designed to help you achieve your goals. We work together with your team in Berlin
+        or
+        Remote to find the right solutions for you. Reach out to learn more.</p>
+    </div>
+    <div class="consulting-contact-methods">
+      <a href="{{ site.appointment_booking_url }}" target=”_blank” class="button">Book and introduction meeting</a>
+      <a href="mailto:{{ site.email }}" class="button">Contact us via email</a>
+    </div>
+  </div>
+
+  <div class="consulting-offers-wrapper">
+    {% for offer in page.offers %}
+    <div class="consulting-offer-item">
+      {% if offer.image %}
+      <img src="{{ offer.image | relative_url }}" alt="{{ offer.title }}">
+      {% endif %}
+
+      <div class="consulting-offer-description">
+        <h3>{{ offer.title }}</h3>
+        {% if offer.subtitle %}
+        <div class="consulting-offer-subtitle">
+          {{ offer.subtitle }}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="consulting-footer">
+    <h3>Interested? Reach out!</h3>
+    <a href="{{ site.appointment_booking_url }}" target=”_blank” class="button">Book and introduction meeting</a>
+    <a href="mailto:{{ site.email }}" class="button">Contact us via email</a>
+  </div>
+</div>
