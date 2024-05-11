@@ -35,9 +35,11 @@ layout: default
   </div>
 
   <div class="project-detail-content-wrapper">
+    {% if page.carousel %}
     <div class="project-detail-screenshot-slider">
       {% include carousel.html height="180" unit="%" duration="4" number="1" %}
     </div>
+    {% endif %}
     <div class="project-detail-content">
       {{ content }}
     </div>
