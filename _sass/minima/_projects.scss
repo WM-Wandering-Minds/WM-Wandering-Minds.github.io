@@ -99,4 +99,19 @@
 
         }
     }
+
+    .project-detail-content-wrapper {
+        .project-detail-screenshot-slider {
+            float: left;
+            width: 100%;
+            max-width: 300px;
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .project-detail-content {
+            min-width: 300px;
+            padding: 1rem;
+        }
+    }
 }

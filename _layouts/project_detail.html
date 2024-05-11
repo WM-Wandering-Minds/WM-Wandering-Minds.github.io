@@ -34,5 +34,15 @@ layout: default
     </div>
   </div>
 
-  {{ content }}
+  <div class="project-detail-content-wrapper">
+    <div class="project-detail-screenshot-slider">
+      {% include carousel.html height="180" unit="%" duration="4" number="1" %}
+    </div>
+    <div class="project-detail-content">
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+
 </div>
