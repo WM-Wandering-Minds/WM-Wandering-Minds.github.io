@@ -4,15 +4,13 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+This Privacy Policy describes how your personal information is collected, used, and shared when you visit this website "{{ site.title }}" (the “Site”).
 
 **PERSONAL INFORMATION WE COLLECT**
 
-{% if site.google_analytics %}
-
 Automatically Collected (Google Analytics):
 
-When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
+When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”. Your IP address is anonymized. 
 
 We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit <http://www.allaboutcookies.org>.
 
@@ -20,11 +18,9 @@ We do this using Google Analytics: <https://www.google.com/intl/en/policies/priv
 
 You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
 
-{% else %}
+**GOOGLE FORMS**
 
-We do not collect any data about you or use any cookies.
-
-{% endif %}
+Any submittion of Feedback, Bug Report, or Feature Requests via [Google Forms](https://policies.google.com/privacy) is only used to resolve your request.
 
 **CHANGES**
 

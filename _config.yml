@@ -9,37 +9,39 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Wandering Minds
 email: contact@wandering-minds.eu
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- 
   Wandering Minds is a software company based in Berlin, Germany. We offer consulting services around software engineering leadership and development of web and mobile application.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wandering-minds.eu" # the base hostname & protocol for your site, e.g. http://example.com
-
+baseurl: ""
+url: "https://wandering-minds.eu"
 company_name: WM Wandering Minds GmbH 
+
+# Social
 github_username:  WM-Wandering-Minds
 linkedin_companyname: WM-Wandering-Minds
 
+# Analytics
 google_analytics: G-R3432B747P
-
-show_excerpts: true
 
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-header_pages: # These are displayed in the header navigation
-  - pages/about.md
-  # - pages/consulting.md
-  # - pages/projects.md
-  # - pages/news.md
+# Navigation
+header_pages:
+   - _pages/consulting.md
+   - _pages/projects.md
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
