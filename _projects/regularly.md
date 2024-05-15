@@ -2,7 +2,7 @@
 layout: project_detail
 title: Regularly
 subtitle: Simple mobile application for period tracking.
-privacy_policy_url: /projects/regularly/privacy_policy/
+privacy_policy_url: /privacy/
 terms_and_conditions_url: /projects/regularly/terms_and_conditions/
 image: /assets/projects/regularly/thumbnail.png
 play_store_url: https://example.com
