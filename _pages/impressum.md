@@ -15,6 +15,6 @@ Paul-Lincke-Ufer 25
 
 <b>Handelsregister:</b> HRB 262373B
 
-<b>USt.-IdNr.:</b> (beantragt, folgt sobald vorhanden)
+<b>USt.-IdNr.:</b> DE367559229
 
 <b>Kontakt:</b> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
