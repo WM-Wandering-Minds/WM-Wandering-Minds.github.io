@@ -12,6 +12,10 @@
             grid-template-columns: 1fr;
         }
 
+        h1 {
+            font-size: 2rem;
+        }
+
         .consulting-contact-methods {
             display: flex;
             flex-direction: column;
@@ -32,6 +36,8 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         grid-gap: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
 
         .consulting-offer-item {
             background-color: $background-color-secondary;
@@ -67,6 +73,52 @@
             }
         }
     }
+
+    .profile-card {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        background-color: $background-color-secondary;
+        border-radius: 1rem;
+        border-width: 2px;
+        border-color: $grey-color;
+        box-shadow: $grey-color 0px 0px 1px 1px;
+        transition: box-shadow 0.3s;
+
+        .profile-card-content {
+            padding-top: 2rem;
+            padding-left: 2rem;
+            padding-bottom: 1rem;
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            p,
+            span {
+                color: $grey-color;
+                margin: 0
+            }
+
+            img {
+                margin-bottom: 0.5rem;
+                border-radius: 1rem;
+
+            }
+        }
+
+        .profile-image {
+            align-content: end;
+
+            img {
+                border-radius: 1rem;
+
+            }
+        }
+    }
+
 
     .consulting-footer {
         flex-direction: row;

@@ -20,6 +20,7 @@ company_name: WM Wandering Minds GmbH
 # Social
 github_username:  WM-Wandering-Minds
 linkedin_companyname: WM-Wandering-Minds
+linkedin_username:  monikawiest
 appointment_booking_url: https://calendar.app.google/hYxygHeXngLJ8gHn9
 
 # Analytics
@@ -34,7 +35,7 @@ plugins:
 # Navigation
 header_pages:
    - _pages/consulting.md
-   - _pages/projects.md
+  #  - _pages/projects.md
 
 collections:
   pages:

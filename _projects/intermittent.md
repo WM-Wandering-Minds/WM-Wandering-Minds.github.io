@@ -2,7 +2,7 @@
 layout: project_detail
 title: Intermittent Fasting
 subtitle: Mobile app to track daily fasting routine.
-privacy_policy_url: /projects/intermittent/privacy_policy/
+privacy_policy_url: /privacy/
 terms_and_conditions_url: /projects/intermittent/terms_and_conditions/
 image: /assets/projects/intermittent/thumbnail.png
 play_store_url: https://example.com

@@ -1,0 +1,20 @@
+{% if page.hero_image %}
+<hero style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('{{ page.hero_image }}');">
+	<div class="hero-wrapper">
+		<div class="hero-inner">
+			{% if page.hero_title %}
+			<h1>{{ page.hero_title | escape }}</h1>
+			{% endif %}
+			{% if page.hero_subtitle %}
+			<p>{{ page.hero_subtitle }}</p>
+			{% endif %}
+			{% if page.hero_cta_url %}
+			<a href="{{ page.hero_cta_url }}" class="button">{{ page.hero_cta_text }}</a>
+			{% endif %}
+		</div>
+		{% if page.hero_content_image %}
+		<img src="{{ page.hero_content_image }}"></img>
+		{% endif %}
+	</div>
+</hero>
+{% endif %}
