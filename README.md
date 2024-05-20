@@ -20,4 +20,4 @@ Any change on the [repository](https://github.com/WM-Wandering-Minds/WM-Wanderin
 ## Acknowledgement
 
 - Style Template was originally copied from [jekyll/minima](https://github.com/jekyll/minima)
-- Images and graphics were created using [Microsoft Image Creator](https://designer.microsoft.com/image-creator) if not otherwise acknowledged or specified
+- Images and graphics were created using [Microsoft Image Creator](https://designer.microsoft.com/image-creator), [Adobe Firefly](https://www.adobe.com/de/products/firefly.html), or [Canva](https://www.canva.com/) if not otherwise acknowledged or specified
