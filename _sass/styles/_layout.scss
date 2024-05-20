@@ -194,7 +194,7 @@ hero {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 1rem;
     margin-right: auto;
     margin-left: auto;
@@ -202,21 +202,29 @@ hero {
     padding-left: $spacing-unit;
   }
 
+  @include media-query($on-palm) {
+    .hero-wrapper {
+      padding-right: $spacing-unit / 3;
+      padding-left: $spacing-unit / 3;
+    }
+  }
+
   .hero-inner {
     align-self: center;
-    padding: $spacing-unit * 2 0;
+    padding: $spacing-unit 0;
 
     h1 {
-      @include relative-font-size(2.7);
+      font-size: 2.7rem
     }
 
     p {
-      @include relative-font-size(1.2);
+      font-size: 1.2rem
     }
 
     a {
-      @include relative-font-size(1.5);
+      font-size: 1.2rem
     }
+
   }
 
   img {
