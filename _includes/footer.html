@@ -6,20 +6,22 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <h2 class="footer-heading">{{ site.company_name | escape }}</h2>
-        <a class="u-url" href="/about">
-          Impressum
-        </a> | <a class="u-url" href="/privacy">
-          Privacy Policy
-        </a> | <a class="u-url" href="/cookies">
-          Cookie Policy
-        </a> |
-        <a href="#" class="u-url termly-display-preferences">
-          Consent Preferences
-        </a>
+        {%- include social.html -%}
       </div>
 
       <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+        <p>Legal</p>
+        <a class="u-url" href="/imprint">
+          Imprint / Impressum
+        </a>
+        <br />
+        <a class="u-url" href="/privacy">
+          Privacy Policy
+        </a>
+        <br />
+        <a href="#" class="u-url termly-display-preferences">
+          Cookie Preferences
+        </a>
       </div>
 
       <div class="footer-col footer-col-3">
