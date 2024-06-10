@@ -2,17 +2,20 @@
 layout: home
 hero_image: /assets/background/mosaic.jpg
 hero_title: Software Engineering and Leadership consulting
-hero_subtitle: Do you need help building or scaling your Software Engineering organisation?<br>Or do you need technical leadership to translate your ideas into working products?<br>We can help you with our individual consulting offering located in Berlin or remote!
+hero_subtitle: Do you need help building or scaling your Software Engineering organisation?<br>Or do you need technical leadership to translate your ideas into working products
 hero_cta_url: /consulting
-hero_cta_text: Learn more
+hero_cta_text: Let us help you
 hero_content_image: /assets/monika/profile.png
 ---
 
-# IT Consulting
+## What is Wandering Minds?
 
-In the ever-evolving landscape of technology, strong leadership is the cornerstone of success. At Wandering Minds, we specialize in guiding software engineering teams towards excellence, empowering them to thrive in today's dynamic environment.
+The name is inspired by the research on creativity in the book "Creativity and the Wandering Mind - Spontaneous and Controlled Cognition - Explorations in Creativity Research" [(link)](https://www.researchgate.net/profile/Louise-Bunce/publication/342474622_Relations_between_imagination_and_creativity/links/5ff82b3645851553a02b15d8/Relations-between-imagination-and-creativity.pdf). A wandering mind is often negatively interpreted as a lack of focus, however research suggests that controlled mind wandering can have significant benefits regarding incubation, creative problem-solving, and ideation.
 
-### Why Choose Us?
+In the ever-changing landscape of technology, creativity and adaptability are the cornerstone of success. 
+At Wandering Minds, we specialise in the engineering leadership needed to guide software engineering teams towards excellence and empowering them to succeed in today’s dynamic environment.
+
+## Why Choose Us?
 
 1. **Expert Guidance**: We bring years of experience in software engineering leadership and understand the challenges you face and provide tailored solutions to drive your team towards success.
 

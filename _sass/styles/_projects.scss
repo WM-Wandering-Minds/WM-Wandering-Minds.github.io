@@ -11,7 +11,12 @@
         border-width: 2px;
         border-color: $grey-color;
         box-shadow: $grey-color 0px 0px 1px 1px;
-        transition: box-shadow 0.3s;
+        transition: all 0.3s;
+
+        &:hover {
+            box-shadow: $grey-color 0px 0px 5px 1px;
+            background-color: lighten($background-color-secondary, 2%);
+        }
 
         img {
             width: 100%;
@@ -22,6 +27,15 @@
 
         .projects-description {
             padding: 1rem;
+            display: flex;
+
+            img {
+                width: 87px;
+                height: 87px;
+                border-radius: 1rem;
+                margin: 0 1rem 0 0;
+                display: inline;
+            }
 
             h2 {
                 color: $text-color;
@@ -33,12 +47,6 @@
                 color: $grey-color;
                 font-size: 0.9rem;
                 margin-top: 0.5rem;
-            }
-
-            .projects-actions {
-                display: flex;
-                flex-direction: row-reverse;
-                margin-top: 1rem;
             }
         }
     }
@@ -69,16 +77,29 @@
         .project-detail-header-description {
             padding: 1rem;
 
-            .project-heading {
-                color: $text-color;
-                font-size: 2rem;
-                margin-top: 0;
-            }
+            .project-heading-area {
+                margin: 0 0;
+                display: flex;
 
-            .project-subtitle {
-                color: $grey-color;
-                font-size: 1rem;
-                margin-top: 0.5rem;
+                .project-icon {
+                    width: 87px;
+                    height: 87px;
+                    border-radius: 1rem;
+                    margin: 0 1rem 0 0;
+                    display: inline;
+                }
+
+                .project-heading {
+                    color: $text-color;
+                    font-size: 2rem;
+                    margin-top: 0;
+                }
+
+                .project-subtitle {
+                    color: $grey-color;
+                    font-size: 1rem;
+                    margin-top: 0.5rem;
+                }
             }
 
             .project-download-buttons {
@@ -101,11 +122,12 @@
     }
 
     .project-detail-content-wrapper {
+
         .project-detail-screenshot-slider {
-            float: left;
+            float: right;
             width: 100%;
             max-width: 300px;
-            margin-right: 2rem;
+            margin-left: 2rem;
             margin-bottom: 2rem;
         }
 

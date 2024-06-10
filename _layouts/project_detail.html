@@ -4,9 +4,16 @@ layout: default
 <div class="project-detail">
   <div class="project-detail-header">
     <div class="project-detail-header-description">
-      <h1 class="project-heading">{{ page.title }}</h1>
 
-      <div class="project-subtitle">{{ page.subtitle }}</div>
+      <div class="project-heading-area">
+        {% if page.icon %}
+        <img src="{{ page.icon }}" alt="{{ page.title }}" class="project-icon">
+        {% endif %}
+        <div>
+          <h1 class="project-heading">{{ page.title }}</h1>
+          <div class="project-subtitle">{{ page.subtitle }}</div>
+        </div>
+      </div>
 
       <div class="project-download-buttons">
         {% if page.play_store_url %}
@@ -35,7 +42,7 @@ layout: default
   </div>
 
   <div class="project-detail-content-wrapper">
-    {% if page.carousel %}
+    {% if page.carousels %}
     <div class="project-detail-screenshot-slider">
       {% include carousel.html height="180" unit="%" duration="4" number="1" %}
     </div>
