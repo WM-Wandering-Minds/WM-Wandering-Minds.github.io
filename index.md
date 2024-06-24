@@ -1,6 +1,6 @@
 ---
 layout: home
-hero_image: /assets/background/mosaic.jpg
+hero_image: /assets/background/leaf.png
 hero_title: Software Engineering and Leadership consulting
 hero_subtitle: Do you need help building or scaling your Software Engineering organisation?<br>Or do you need technical leadership to translate your ideas into working products
 hero_cta_url: /consulting
