@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="book-detail">
+  <div class="book-detail-header">
+    {% if page.image %}
+    <div class="book-detail-header-image">
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    <div class="book-detail-header-description">
+      <h1 class="book-heading">{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <div class="book-subtitle">{{ page.subtitle }}</div>
+      {% endif %}
+      <div class="book-authors">
+        <span>by</span>
+        {% for author in page.authors %}
+        <span class="book-author">{{ author }}</span>
+        {% endfor %}
+      </div>
+      {% if page.links %}
+      <div class="book-detail-header-links">
+        <h3>Where to get it</h3>
+        {% if page.links.amazon %}
+        <a href="{{ page.links.amazon }}" target="_blank">Amazon 🔗</a>
+        {% endif %}
+        {% if page.links.thalia %}
+        <a href="{{ page.links.thalia }}" target="_blank">Thalia 🔗</a>
+        {% endif %}
+        {% if page.links.goodreads %}
+        <a href=" {{ page.links.goodreads }}" target="_blank">Goodreads 🔗</a>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="book-detail-content">
+    {{ content }}
+  </div>
+</div>

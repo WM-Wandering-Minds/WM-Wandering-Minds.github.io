@@ -35,8 +35,9 @@ plugins:
 
 # Navigation
 header_pages:
-   - _pages/consulting.md
-  #  - _pages/projects.md
+  - _pages/consulting.md
+  # - _pages/projects.md
+  # - _pages/books.md
 
 collections:
   pages:
@@ -45,6 +46,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  # books:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

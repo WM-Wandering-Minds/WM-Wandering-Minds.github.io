@@ -2,13 +2,43 @@
 layout: default
 ---
 
-<div class="home">
+<div class="project-overview">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
-  {%- include project_portfolio.html -%}
+  <section class="page-section" id="{{ site.data.sitetext.projects.section | default: 'projects' }}">
+    <div class="projects-wrapper">
+      {% for project in site.projects %}
+      {% if project.preview == null %}
+      {% continue %}
+      {% endif %}
+
+      <a href="{{ project | relative_url }}">
+        <div class="projects-item">
+          <img src="{{ project.preview.thumbnail | relative_url }}" alt="{{ project.preview.title }}">
+
+          <div class="projects-description">
+            {% if project.preview.icon %}
+            <img src="{{ project.preview.icon | relative_url }}" alt="{{ project.preview.title }}" class="project-icon">
+            {% endif %}
+
+            <div>
+              <h2>{{ project.preview.title }}</h2>
+
+              {% if project.preview.subtitle %}
+              <div class="projects-subtitle">
+                {{ project.preview.subtitle | markdownify }}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
 
 </div>
