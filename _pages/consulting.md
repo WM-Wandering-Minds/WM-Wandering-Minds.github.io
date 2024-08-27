@@ -1,6 +1,7 @@
 ---
 layout: consulting
 title: Consulting
+banner: We currently have no capacity for new consulting projects available.
 leadership_title: Tech Leadership. On Demand.
 leadership_subtitle: Building and scaling technology in today's dynamic landscape requires a strategic and experienced leader. But hiring a full-time engineering lead can be a lengthy and expensive process. That's where our consulting offer comes in. We can offer skills as Interim CTO, Head of Engineering, or Engineering Manager to bridge your technology gaps and drive growth for your product and organisation.
 leadership_offers:

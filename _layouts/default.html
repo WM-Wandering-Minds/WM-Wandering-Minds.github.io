@@ -8,6 +8,12 @@
   {%- include header.html -%}
   {%- include hero.html -%}
 
+  {% if page.banner %}
+  <section class="consulting-banner">
+    <p>{{ page.banner}}</p>
+  </section>
+  {% endif %}
+
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
       {{ content }}
