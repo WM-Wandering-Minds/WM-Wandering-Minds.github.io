@@ -6,8 +6,8 @@ privacy_policy_url: /privacy/
 terms_and_conditions_url: /projects/camino/terms/
 image: /assets/projects/camino/thumbnail.png
 icon: /assets/projects/camino/launcher.png
-# play_store_url: https://play.google.com/store/apps/details?id=com.wanderingminds.camino
-# app_store_url: https://apps.apple.com/app/id6538727919
+play_store_url: https://play.google.com/store/apps/details?id=com.wanderingminds.camino
+app_store_url: https://apps.apple.com/app/id6538727919
 support_url: https://forms.gle/ysztazr8VQuwfnTd9
 carousels:
   - images: 

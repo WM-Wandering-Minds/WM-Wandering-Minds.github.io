@@ -5,6 +5,7 @@ subtitle: Simple mobile application for period tracking.
 privacy_policy_url: /privacy/
 terms_and_conditions_url: /projects/regularly/terms/
 image: /assets/projects/regularly/thumbnail.png
+icon: /assets/projects/regularly/launcher.png
 play_store_url: https://play.google.com/store/apps/details?id=com.wanderingminds.regularly
 app_store_url: https://apps.apple.com/app/id6529520861
 support_url: https://forms.gle/RBKG4rGxDnmq5h1J6
