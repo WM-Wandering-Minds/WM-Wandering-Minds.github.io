@@ -1,9 +1,9 @@
 ---
 layout: project_overview
-title: Projects
+title: Products
 permalink: /projects/
 ---
 
-While not on consulting projects, we work on our own portfolio of small projects.
+While not on consulting projects, we work on our own portfolio of products.
 
-Do you want to collaborate on a new or existing project? Reach out to [contact@wandering-minds.eu](mailto:contact@wandering-minds.eu)
+Do you want to collaborate on a new or existing product? Reach out to [contact@wandering-minds.eu](mailto:contact@wandering-minds.eu)
